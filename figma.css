@@ -106,4 +106,53 @@ width: 20%;
     color: #fff;
     background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
 }
+.sponsors{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin:auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.postimage img{
+    width:100%;
+}
+.postimage{
+    width: 40%;
+}
+.posttext{
+    width: 40%;
+}
+.posttext h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: #034D82;
+    width: 85%;
+
+}
+.posttext a{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.83px;
+color: #04AADD;
+}
+.iphone{
+    position: absolute;
+}
+.arrow{
+    position:relative;
+    z-index:-2;
+}
 
