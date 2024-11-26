@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.headerhero{
+  background-color: rgba(0, 184, 217, 1); 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    gap: 3rem;
+}
+.navbar li a{
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 18.23px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+color: white;
+text-decoration: none;
+}
+select{
+    background: none;
+    border: none;
+    color:white;
+}
+nav button{
+    background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+    color:white;
+    border: none;
+    padding: 0.9rem 1.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+nav button:hover{
+    background: #fff;
+    color:rgba(0, 168, 219, 1);
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+.textside{
+    margin-left: 6rem;
+}
+
+.textside h2{
+    font-family: DM Sans;
+font-size:64px;
+font-weight: 700;
+color:white;
+}
+.textside p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color:#fff;
+width: 60%;
+}
+.curve img{
+width: 20%;
+}
+.imageside img{
+    width: 100%;
+}
+.demo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.demo button{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+    text-align: center;
+    color: rgba(0, 168, 219, 1);
+    background:#fff;
+    border: none;
+    cursor: pointer;
+    padding:1rem 1.5rem;
+    border-radius: 4px;
+}
+.demo button:hover{
+    color: #fff;
+    background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+}
+
